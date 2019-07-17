@@ -47,7 +47,7 @@ dependencies {
 def siteUrl = 'https://github.com/fenggan/JetPackTestDemo'
 def gitUrl = 'https://github.com/fenggan/JetPackTestDemo'
 group = "com.airpush.jetpacktestdemo"
-version = "1.0.0"
+version = "1.0.1"
 
 
 install {
