@@ -47,7 +47,7 @@ dependencies {
 def siteUrl = 'https://github.com/fenggan/JetPackTestDemo'
 def gitUrl = 'https://github.com/fenggan/JetPackTestDemo'
 group = "com.airpush.jetpacktestdemo"
-version = "1.0.1"
+version = "1.0.0"
 
 
 install {
@@ -130,7 +130,7 @@ bintray {
         //JCenter创建的仓库名称
         repo = "fg"
         //JCenter仓库下的包名
-        name = "aaa"
+        name = "ddd"
         websiteUrl = siteUrl
         vcsUrl = gitUrl
         licenses = ["Apache-2.0"]
