@@ -1,4 +1,4 @@
-apply plugin: 'com.android.application'
+apply plugin: 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven'
 apply plugin: 'com.jfrog.bintray'
 
@@ -6,7 +6,7 @@ android {
     compileSdkVersion 29
     buildToolsVersion "29.0.0"
     defaultConfig {
-        applicationId "com.airpush.jetpacktestdemo"
+//        applicationId "com.airpush.jetpacktestdemo"
         minSdkVersion 24
         targetSdkVersion 29
         versionCode 1
@@ -47,7 +47,7 @@ dependencies {
 def siteUrl = 'https://github.com/fenggan/JetPackTestDemo'
 def gitUrl = 'https://github.com/fenggan/JetPackTestDemo'
 group = "com.airpush.jetpacktestdemo"
-version = "1.0.2"
+version = "1.0.0"
 
 
 install {
@@ -130,7 +130,7 @@ bintray {
         //JCenter创建的仓库名称
         repo = "fg"
         //JCenter仓库下的包名
-        name = "ddd"
+        name = "asd"
         websiteUrl = siteUrl
         vcsUrl = gitUrl
         licenses = ["Apache-2.0"]
