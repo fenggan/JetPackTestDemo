@@ -9,9 +9,12 @@ import android.widget.Button;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
+import androidx.lifecycle.ViewModelProviders;
 import androidx.navigation.Navigation;
 
 import com.airpush.jetpacktestdemo.R;
+import com.airpush.jetpacktestdemo.model.User;
+import com.airpush.jetpacktestdemo.viewmodel.UserViewModel;
 
 public class FragmentTwo extends Fragment {
     private Button btn;
