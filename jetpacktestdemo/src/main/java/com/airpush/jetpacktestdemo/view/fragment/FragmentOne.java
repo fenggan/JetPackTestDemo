@@ -42,10 +42,11 @@ public class FragmentOne extends Fragment {
     }
 
     private void insert(UserViewModel userViewModel) {
-        User user = new User();
-        user.setId(1);
-        user.setName("ffdddf");
-        user.setAge(18);
-        userViewModel.insert(user);
+        for (int i = 0; i < 100; i++) {
+            User user = new User();
+            user.setName("a"+i);
+            user.setAge(18);
+            userViewModel.insert(user);
+        }
     }
 }

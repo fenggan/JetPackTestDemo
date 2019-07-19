@@ -19,6 +19,9 @@ public interface UserDao {
     @Query("select * from user")
     LiveData<List<User>> selectAll();
 
+    @Query("select * from user")
+    List<User> getAllData();
+
     @Query("delete  from user")
     void deleteAll();
 
